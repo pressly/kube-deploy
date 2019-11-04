@@ -1,6 +1,6 @@
 FROM alpine:3.10
 
-RUN apk add -U openssl curl tar gzip bash ca-certificates
+RUN apk add -U openssl curl tar gzip bash git ca-certificates
 
 # glibc https://github.com/sgerrand/alpine-pkg-glibc
 RUN wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub && \
