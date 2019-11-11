@@ -14,7 +14,7 @@ RUN curl -L -o /usr/bin/kubectl https://storage.googleapis.com/kubernetes-releas
     kubectl version --client
 
 # yaml transformations tool - https://github.com/VojtechVitek/yaml-cli 
-RUN curl -L -o /usr/bin/yaml https://github.com/VojtechVitek/yaml-cli/releases/download/v0.0.4/yaml-linux64 && \
+RUN curl -L -o /usr/bin/yaml https://github.com/VojtechVitek/yaml-cli/releases/download/v0.0.5/yaml-linux64 && \
     chmod +x /usr/bin/yaml
 
 # secrets hydration tool - https://github.com/pressly/hydrate
